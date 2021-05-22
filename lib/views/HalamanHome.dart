@@ -8,7 +8,6 @@ import 'package:task4/views/HalamanKamus.dart';
 import '../Consts.dart';
 import 'HalamanBerita.dart';
 import 'HalamanGaleri.dart';
-import 'HalamanTambahPegawai.dart';
 
 class HalamanHome extends StatefulWidget {
   // final VoidCallback signOut;
