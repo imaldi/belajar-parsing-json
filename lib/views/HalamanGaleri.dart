@@ -53,7 +53,7 @@ class ItemList extends StatelessWidget {
               }));
             },
             child: Image.network(
-              'http://$URL/flutter-server/' + list[index]['foto'],
+              'http://$URL/flutter-server/images/' + list[index]['foto'],
              
               
             ),
@@ -80,7 +80,7 @@ class DetailBerita extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           Image.network(
-              'http://$URL/flutter-server/' + list[index]['foto']),
+              'http://$URL/flutter-server/images/' + list[index]['foto']),
           Container(
             padding: EdgeInsets.all(32.0),
             child: Row(
